@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/call_but"
+        style="@style/AppTheme"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/call_button" />
+
+    <Button
+        android:id="@+id/msg_but"
+        style="@style/AppBaseTheme"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/call_but"
+        android:layout_alignBottom="@+id/call_but"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/call_but"
+        android:text="@string/msg_button" />
+
+    <EditText
+        android:id="@+id/phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/msg_txt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/call_but"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/msg_edit"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/send_but"
+        style="@style/AppBaseTheme"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/send_but" />
+
+</RelativeLayout>

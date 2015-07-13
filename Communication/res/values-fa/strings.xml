@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Communication</string>
+    <string name="call_button">تماس</string>
+    <string name="msg_button">پیام رسانی</string>
+    <string name="phone_number">شماره تلفن را وارد کنید</string>
+    <string name="msg_edit">پیام خود را وارد کنید</string>
+    <string name="send_but">ارسال</string>
+    
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Communication</string>
+    <string name="call_button">Call</string>
+    <string name="msg_button">Message</string>
+    <string name="phone_number">Enter a phone number</string>
+    <string name="msg_edit">Enter your text</string>
+    <string name="send_but">Send</string>
+    
+
+</resources>
